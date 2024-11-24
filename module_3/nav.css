@@ -1,0 +1,17 @@
+body {
+    font-family: arial, sans-serif;
+}
+
+nav {
+    background-color: lightblue;
+    height: 3em;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+}

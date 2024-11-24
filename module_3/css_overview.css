@@ -1,0 +1,48 @@
+body {
+    width: 50%;
+    margin: auto;
+}
+
+h1 {
+    color: skyblue;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+}
+
+p {
+    line-height: 1.6;
+    width: 100%;
+}
+
+p:nth-child(4) {
+    font-family: monospace;
+}
+
+p:nth-child(5) {
+    border: 2px solid skyblue;
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+    color: skyblue;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 15px;
+}
+
+a::after {
+    position: absolute;
+    content: '';
+    border-bottom: 2px solid skyblue;
+    transform: translateX(-50%);
+    bottom: -10px;
+    left: 50%;
+}
+
+strong {
+    color: skyblue;
+    font-size: 1.5rem;
+}
